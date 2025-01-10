@@ -1,0 +1,27 @@
+.rps-bg-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #223a5f;
+  min-height: 100vh;
+  padding: 20px;
+}
+.rpc-body-container {
+  width: 80%;
+  align-self: center;
+  min-height: 80vh;
+  font-family: 'Roboto';
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rpc-choices-container {
+  margin-top: 20px;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

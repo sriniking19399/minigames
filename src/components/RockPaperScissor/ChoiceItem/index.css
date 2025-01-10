@@ -1,0 +1,12 @@
+.choice-item {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.choice-image {
+  width: 100px;
+}
+.choice-button {
+  background: none;
+  border: none;
+}

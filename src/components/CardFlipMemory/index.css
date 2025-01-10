@@ -1,0 +1,73 @@
+.cfm-game-view{
+  background-color: green;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.cfm-body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+.cfm-score-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 70%;
+  margin-top: 0px;
+  height: 5vh;
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 18px;
+}
+.cfm-card-container {
+  width: 90%;
+  min-height: 70vh;
+  background-color: #154315;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  list-style: none;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(5, 0.5fr);
+  grid-template-rows: repeat(4, 0.5fr);
+  gap: 0.4em;
+}
+.cfm-result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #14332e;
+  font-family: 'Roboto';
+  color: white;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+}
+.cfm-result-emoji {
+  width: 10%;
+}
+.greeting {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #4ade80;
+}
+.play-again-button {
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Roboto';
+  color: #14332e;
+}

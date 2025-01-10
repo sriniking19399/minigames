@@ -1,0 +1,33 @@
+.memory-result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a202c;
+  min-height: 100vh;
+  padding: 10px;
+  font-family: 'Roboto';
+  color: white;
+}
+.result-progress-container {
+  width: 70%;
+}
+.result-emoji-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.result-emoji-item {
+  width: 5%;
+}
+.memory-playagain-button {
+  width: 100px;
+  height: 40px;
+  background-color: #467aff;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  color: white;
+}

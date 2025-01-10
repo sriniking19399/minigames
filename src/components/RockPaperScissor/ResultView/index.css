@@ -1,0 +1,87 @@
+.rps-bg-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #223a5f;
+  min-height: 100vh;
+  padding: 20px;
+}
+.result-heading {
+  font-family: 'Roboto';
+  color: white;
+  align-self: center;
+}
+.rps-result-score-container {
+  width: 70%;
+  height: 25vh;
+  border: 1px solid white;
+  font-family: 'Roboto';
+  color: white;
+  padding: 10px;
+  align-self: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-image {
+  width: 10%;
+  height: 100%;
+}
+.rps-score {
+  width: 100px;
+  height: 80px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #223a5f;
+}
+.rps-result-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  width: 60%;
+  height: 40vh;
+}
+.rps-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  color: white;
+}
+.choiceImage {
+  width: 40%;
+}
+.rps-retry-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  color: white;
+  padding-top: 40px;
+}
+.emoji {
+  width: 30%;
+}
+.rpc-play-again-button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: #223a5f;
+  font-family: 'Roboto';
+  font-weight: 600;
+}

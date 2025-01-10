@@ -1,0 +1,53 @@
+.nav-bar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: blur;
+  border: 1px solid white;
+  padding: 5px;
+  font-family: 'Roboto';
+  color: #334155;
+  height: 10vh;
+}
+.nav-content-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+}
+.nav-emoji-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: none;
+  width: 50%;
+  height: 100%;
+}
+.emoji-logo {
+  width: 30px;
+  margin: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-logo {
+    width: 45px;
+  }
+}
+.scores-container {
+  display: flex;
+}
+
+.score {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .score {
+    font-size: 24px;
+    margin-left: 32px;
+  }
+}
